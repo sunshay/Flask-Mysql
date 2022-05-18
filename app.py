@@ -1,7 +1,7 @@
 from crypt import methods
 from unicodedata import name
 from flask import Flask, render_template, request #1.import flask module
-from flask_mysqldb import MySQL
+from 
 
 #2.instantiate an object for this class flask
 app = Flask(__name__)   #we pass in the current module identify by __name__
