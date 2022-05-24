@@ -1,6 +1,5 @@
 # from crypt import methods
 from unicodedata import name
-from django import db
 from flask import Flask, render_template, request #1.import flask module
 from flask_pymysql import MySQL
 import yaml
